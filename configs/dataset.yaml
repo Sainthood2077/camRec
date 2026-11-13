@@ -1,0 +1,13 @@
+# Example Ultralytics dataset config.
+# Copy this file next to your prepared dataset and keep `path` relative.
+path: ./datasets/camrec_all_classes
+train: images/train
+val: images/val
+test: images/test
+nc: 5
+names:
+  - person
+  - garbage
+  - luggage
+  - backpack
+  - handbag

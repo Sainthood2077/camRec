@@ -1,0 +1,56 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+.trae/
+.idea/
+.vscode/
+*.swp
+
+# Datasets, samples, and training artifacts (keep local)
+datasets/
+runs/
+simple/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.mlmodel
+*.tflite
+*.trt
+
+# Local / personal / secrets
+汇报进度
+_ls.txt
+*.excalidraw
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+secrets.*
+credentials.*
+*.log
+
+# Caches and experiment trackers
+.cache/
+ultralytics/
+wandb/
+runs/

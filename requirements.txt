@@ -1,0 +1,5 @@
+# Install a CUDA-matched PyTorch build first, for example:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+ultralytics>=8.3.0
+opencv-python
+pyyaml
